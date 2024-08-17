@@ -1,10 +1,6 @@
 # Pizzería Delicias de Alondra
 
-¡Bienvenidos a Pizzería Delicias de Alondra! Esta es una aplicación de pizzería en línea desarrollada con React y Vite. 
-
-## Despliegue
-
-Puedes ver la aplicación en funcionamiento [aquí]().
+¡Bienvenidos a Pizzería Delicias de Alondra! Esta es una aplicación de pizzería en línea desarrollada con React y Vite.
 
 ## Tecnologías utilizadas
 
@@ -17,7 +13,7 @@ Puedes ver la aplicación en funcionamiento [aquí]().
 
 1. Clona el repositorio:
     ```bash
-    git clone https://github.com/geoquimica-gomez/desafio17Hito4.git
+    git clone https://github.com/geoquimica-gomez/desafio17Hito5.git
     ```
 
 2. Navega al directorio del proyecto:
@@ -30,10 +26,18 @@ Puedes ver la aplicación en funcionamiento [aquí]().
     npm install
     ```
 
-4. Inicia la aplicación:
+4. Repite el proceso para el directorio del Backend
+
+5. Inicia la aplicación: (Primero levanta el servidor del Backend luego el directorio del Client)
     ```bash
-    npm run dev
+    npm start <!--(Para el backend) -->
     ```
+
+    ```bash
+    npm run dev  <!--(Para el client) -->
+    ```
+
+6. Repite el proceso para el directorio del Backend
 
 ## Scripts disponibles
 

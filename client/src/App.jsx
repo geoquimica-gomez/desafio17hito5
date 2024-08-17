@@ -1,4 +1,3 @@
-import './App.css'
 import { Routes, Route } from 'react-router-dom';
 import 'react-toastify/dist/ReactToastify.css';
 //Componentes importados
@@ -6,11 +5,13 @@ import NavbarApp from './components/Navbar';
 import Footer from './components/Footer';
 
 // Vistas importadas
-import Home from './views/Home';
-import RegisterPage from './views/RegisterPage';
-import LoginPage from './views/LoginPage';
-import Cart from './views/Cart';
-import Pizza from './views/Pizza';
+import Home from './pages/Home';
+import RegisterPage from './pages/RegisterPage';
+import LoginPage from './pages/LoginPage';
+import Cart from './pages/Cart';
+import Pizza from './pages/Pizza';
+import Profile from './pages/Profile';
+import NotFound from './pages/NotFound';
 
 function App() {
   return (
@@ -40,6 +41,12 @@ function App() {
           <Route
             path="/pizza/:id"
             element={<Pizza />} />
+          <Route
+            path="/profile"
+            element={<Profile />} />
+          <Route
+            path="*"
+            element={<NotFound />} />
         </Routes>
       </main>
 

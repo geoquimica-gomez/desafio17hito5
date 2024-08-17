@@ -32,7 +32,7 @@ const NavbarApp = () => {
                                 placement="bottom"
                                 overlay={<Tooltip id="tooltip-profile">Ver perfil</Tooltip>}
                             >
-                                <Link to="/" className='btn1'>🔓Profile</Link>
+                                <Link to="/profile" className='btn1'>🔓Profile</Link>
                             </OverlayTrigger>
                         ) : (
                             <OverlayTrigger
@@ -57,6 +57,12 @@ const NavbarApp = () => {
                                 <Link to="/register" className='btn1'>🔐Register</Link>
                             </OverlayTrigger>
                         )}
+                        <OverlayTrigger
+                            placement="bottom"
+                            overlay={<Tooltip id="tooltip-home">Visita tu perfil</Tooltip>}
+                        >
+                            <Link to="/profile" className='btn1'>🔓Profile</Link>
+                        </OverlayTrigger>
                     </Nav>
                     <Nav>
                         <OverlayTrigger
